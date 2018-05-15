@@ -15,6 +15,8 @@ update your /etc/hosts , and add
 
 		127.0.0.1 testb.com
 
+		127.0.0.1 testc.com
+
 ### Nginx demo 
 
 * run 
