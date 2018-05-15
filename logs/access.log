@@ -3,3 +3,4 @@
 172.18.0.1 - - [15/May/2018:02:12:52 +0000] "GET /favicon.ico HTTP/1.1" 404 572 "http://testa.com:5050/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
 172.18.0.1 - - [15/May/2018:02:12:55 +0000] "GET / HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
 172.18.0.1 - - [15/May/2018:02:12:55 +0000] "GET /favicon.ico HTTP/1.1" 404 572 "http://testb.com:5050/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
+172.18.0.1 - - [15/May/2018:02:55:02 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
