@@ -25,5 +25,22 @@ update your /etc/hosts , and add
 		
 * the output will be find in ./logs
 
+### Tomcat demo
+
+* run 
+
+		docker-compose up -d 
+
+	Open your browser , and visit http://localhost:8080					
+
+* open your browser and visit http://localhost:8080/countuser-1.0-SNAPSHOT/ , you can find something produced by j2ee .		
+
+	use commonds to enter tomcat terminal : 
+
+		docker exec -it 容器ID/容器name /bin/bash	
+
 ### Nginx to Tomcat demo
+
+
+
 

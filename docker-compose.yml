@@ -13,4 +13,16 @@ services:
       - ./conf/vhosts:/etc/nginx/conf.d
       - ./logs:/var/log/nginx
       - ./www/:/var/www/
-  
+  tomat:
+    container_name: tomcat
+    restart: always
+    image: tomcat:8.0
+    ports:
+      - 8080:8080
+      - 8009:8009
+    volumes:
+      - ./webapps/countuser-1.0-SNAPSHOT.war:/usr/local/tomcat/webapps/countuser-1.0-SNAPSHOT.war
+      - ./conf/server.xml:/usr/local/tomcat/conf/server.xml
+      - ./logs:/usr/local/tomcat/logs
+      
+
