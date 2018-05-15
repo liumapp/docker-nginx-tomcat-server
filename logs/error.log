@@ -1,0 +1,2 @@
+2018/05/15 02:12:52 [error] 8#8: *4 open() "/var/www/testb/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: *.testb.com, request: "GET /favicon.ico HTTP/1.1", host: "testa.com:5050", referrer: "http://testa.com:5050/"
+2018/05/15 02:12:55 [error] 8#8: *6 open() "/var/www/testb/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: *.testb.com, request: "GET /favicon.ico HTTP/1.1", host: "testb.com:5050", referrer: "http://testb.com:5050/"
