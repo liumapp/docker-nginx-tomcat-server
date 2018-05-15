@@ -15,8 +15,6 @@ update your /etc/hosts , and add
 
 		127.0.0.1 testb.com
 
-		127.0.0.1 testc.com
-
 ### Nginx demo 
 
 * run 
@@ -43,6 +41,18 @@ update your /etc/hosts , and add
 
 ### Nginx to Tomcat demo
 
+
+* run 
+
+		docker-compose up -d 
+
+	Open your browser , and visit http://localhost:4040					
+
+* open your browser and visit http://localhost:4040/countuser-1.0-SNAPSHOT/ , you can find something produced by j2ee .		
+
+	use commonds to enter tomcat terminal : 
+
+		docker exec -it 容器ID/容器name /bin/bash	
 
 
 

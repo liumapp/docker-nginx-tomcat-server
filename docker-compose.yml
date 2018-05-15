@@ -14,6 +14,8 @@ services:
       - ./conf/vhosts:/etc/nginx/conf.d
       - ./logs:/var/log/nginx
       - ./www/:/var/www/
+    links:
+      - tomcat:t1  
   tomcat:
     container_name: tomcat
     restart: always
